@@ -21,7 +21,16 @@ export class TasksComponent implements OnInit {
   );
   }
   DeleteTask(task:Task){
-    this.taskService.deleteTask(task).subscribe(()=> [this.tasks = this.tasks.filter(t => t.id !== task.id)
-    ]
-    )}
-}
+    this.taskService.deleteTask(task)
+      .subscribe(
+        ()=> [
+          this.tasks = this.tasks.filter( (t)=> {
+            console.log("task delete!");
+            return t.id !== task.id      
+          })
+      
+  
+        ]
+      )}      
+} 
+
