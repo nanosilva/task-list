@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TaskService } from 'src/app/service/task.service';
-import { Task } from '../../task';
+import { Task } from '../../Task';
 
 
 @Component({
