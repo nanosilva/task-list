@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { Task } from 'src/app/Task';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Task } from 'src/app/task';
 import { TASKS } from 'src/app/mock-tasks';
 import { backspaceFill } from 'ngx-bootstrap-icons';
 
@@ -10,6 +10,8 @@ import { backspaceFill } from 'ngx-bootstrap-icons';
 })
 export class TasksItemsComponent implements OnInit {
   @Input() task: Task = TASKS[1];
+  @Output() onDeleteTask : EventEmitter <Task> = new EventEmitter()
+
    backspaceFill=backspaceFill
    
    
@@ -18,8 +20,8 @@ export class TasksItemsComponent implements OnInit {
   ngOnInit(): void {
     
   }
-  OnDelete(){
-    console.log("Delete!");
+  OnDelete(task: Task){
+    this.onDeleteTask.emit(task);
   }
 
 }
