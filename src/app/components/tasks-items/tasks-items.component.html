@@ -1,6 +1,7 @@
 
-<div class="task" >
-    
+<div class="task" 
+    [ngClass]="{reminder: task.reminder}"
+    (click)="onToggle(task)">
     <h3>{{task.text}}</h3>
     <div class="right"><i i-bs name= "backspace-fill" style= "color: red;" 
     (click)="OnDelete(task)"  

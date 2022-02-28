@@ -8,6 +8,7 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import { TasksItemsComponent } from './components/tasks-items/tasks-items.component';
 import { NgxBootstrapIconsModule, allIcons } from 'ngx-bootstrap-icons';
 import { TaskService } from './service/task.service';
+import { AddTaskComponent } from './components/add-task/add-task.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TaskService } from './service/task.service';
     HeaderComponent,
     ButtonComponent,
     TasksComponent,
-    TasksItemsComponent
+    TasksItemsComponent,
+    AddTaskComponent
   ],
   imports: [
     BrowserModule,

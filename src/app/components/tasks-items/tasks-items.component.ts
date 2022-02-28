@@ -11,6 +11,7 @@ import { backspaceFill } from 'ngx-bootstrap-icons';
 export class TasksItemsComponent implements OnInit {
   @Input() task: Task = TASKS[1];
   @Output() onDeleteTask : EventEmitter <Task> = new EventEmitter();
+  @Output() onToggleReminder: EventEmitter <Task> = new EventEmitter(); 
 
    backspaceFill=backspaceFill
    
@@ -24,4 +25,8 @@ export class TasksItemsComponent implements OnInit {
     this.onDeleteTask.emit(task);
   }
 
+  onToggle(task:Task){
+    this.onToggleReminder.emit(task);
+
+  }
 }
