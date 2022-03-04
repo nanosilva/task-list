@@ -4,25 +4,31 @@
       "id": 1,
       "text": "Terminar primer modulo de Angular",
       "day": "Agosto 5 a las 12:00",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 2,
       "text": "Hacer las compras para la cena",
       "day": "Agosto 5 a las 17:00",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 3,
       "text": "Investigar sobre Bootstrap",
       "day": "Agosto 5 a las 19:00",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 4,
       "text": "Leer mi libro",
       "day": "Agosto 5 a las 23:00",
-      "reminder": false
+      "reminder": true
+    },
+    {
+      "id": 6,
+      "text": "nueva tarea",
+      "day": "mañana",
+      "reminder": true
     }
   ]
 }
