@@ -7,27 +7,27 @@
       "reminder": true
     },
     {
-      "id": 2,
-      "text": "Hacer las compras para la cena",
-      "day": "Agosto 5 a las 17:00",
-      "reminder": true
-    },
-    {
       "id": 3,
       "text": "Investigar sobre Bootstrap",
       "day": "Agosto 5 a las 19:00",
       "reminder": true
     },
     {
-      "id": 4,
-      "text": "Leer mi libro",
-      "day": "Agosto 5 a las 23:00",
+      "id": 7,
+      "text": "Agregar alguna notificación",
+      "day": "mañana",
       "reminder": true
     },
     {
-      "id": 6,
-      "text": "nueva tarea",
-      "day": "mañana",
+      "id": 8,
+      "text": " agregar formato dia y fecha al formulario",
+      "day": "domingo 6 de marzo",
+      "reminder": true
+    },
+    {
+      "id": 9,
+      "text": "diseñar portfolio",
+      "day": "domingo 6 de marzo",
       "reminder": true
     }
   ]

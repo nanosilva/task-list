@@ -43,6 +43,9 @@ export class AddTaskComponent implements OnInit {
       reminder: this.reminder
     }
     this.onAddTask.emit(newTask);
+    alert("se agregará tarea");
+    this.text=""
+    this.day=""
 
   }
 
