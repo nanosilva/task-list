@@ -19,15 +19,15 @@
       "reminder": true
     },
     {
-      "id": 8,
-      "text": " agregar formato dia y fecha al formulario",
+      "id": 9,
+      "text": "diseñar portfolio",
       "day": "domingo 6 de marzo",
       "reminder": true
     },
     {
-      "id": 9,
-      "text": "diseñar portfolio",
-      "day": "domingo 6 de marzo",
+      "id": 10,
+      "text": "agregar formato fecha y hora",
+      "day": "2022-03-06T21:00",
       "reminder": true
     }
   ]
